@@ -1,0 +1,52 @@
+.footer {
+    min-height: 360px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $main-color;
+        width: 460px;
+        height: 270px;
+        padding: 50px 68px 60px 68px;
+    }
+    &__addr{
+        margin-bottom: 36px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    &__phone{
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 38px;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: #fff;
+        }
+    }
+    &__nets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__nets-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: 2px #fff solid;
+        border-radius: 100%;
+        margin: 0 15px;
+        img {
+
+        }
+    }
+}
