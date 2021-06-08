@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 600,
         arrows: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../img/ico/chevron-left-solid.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../img/ico/chevron-right-solid.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/ico/chevron-left-solid.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="img/ico/chevron-right-solid.png"></button>',
         responsive: [
             {
                 breakpoint: 768,
@@ -14,7 +14,7 @@ $(document).ready(function(){
             }
         ]
       });
-
+    //валидация форм через jquery
 $('#consultation-form').validate({
     rules: {
         name: {
@@ -120,7 +120,7 @@ tabsTrigger.forEach((trigger, id) => {
         })
     });
 
-    //валидация форм через jquery
+
 
 
      
